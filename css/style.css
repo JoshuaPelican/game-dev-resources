@@ -1,0 +1,114 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #121212;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+select,
+input {
+  padding: 5px;
+  margin: 5px;
+  height: 2em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+}
+
+option {
+  background: #121212;
+}
+
+
+
+
+.item-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+
+.item-card{
+  width: 30%;
+  height: 150px;
+  background-color: #333;
+
+  padding: 5px;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-header, .item-footer{
+  width: 100%;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  
+  gap: 5px;
+}
+
+.item-header p{
+  margin: 0;
+}
+
+.item-body{
+  width: 100%;
+
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+
+.item-info{
+  text-align: center;
+}
+
+.item-desc{
+  flex: 1;
+}
+
+.item-footer{
+  width: 100%;
+}
+
+.item-tag-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.sortable {
+  cursor: pointer;
+}
+
+.sort-arrow {
+  margin-left: 5px;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+#pagination button {
+  margin: 0 5px;
+}
+
+#loading,
+#no-results {
+  text-align: center;
+  margin: 20px 0;
+}
