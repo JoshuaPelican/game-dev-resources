@@ -42,16 +42,25 @@
     <div class="item-grid" id="item-grid">
     </div>
     
-    <div id="pagination">
-        <button id="prev-page" disabled>Previous</button>
-        <span id="page-info">Page 1 of 1</span>
-        <button id="next-page" disabled>Next</button>
+    <div id="items-container">
+        <!-- Items will be loaded here -->
     </div>
     
     <div id="loading">Loading...</div>
     <div id="no-results" style="display: none;">No items match the filters.</div>
 
+    <div id="pagination-controls">
+        <button id="prev-btn">Previous</button>
+        <span id="page-info">Page 1 of 1</span>
+        <button id="next-btn">Next</button>
+    </div>
 
+    <script type="text/javascript" src="https://download.playfab.com/PlayFabClientApi.js"></script>
+
+    <script src="js/display.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/playfab.js"></script>
+    <script src="app.js"></script>
 </body>
-<script src="js/database.js"></script>
 </html>
