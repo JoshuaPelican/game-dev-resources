@@ -1,7 +1,7 @@
 class App{
     constructor(){
         this.playfab = new PlayFabManager("71E9B", () => this.initialize());
-        this.pagination = new PaginationManager([], 10);
+        this.pagination = new PaginationManager([], 12);
 
         this.loadingText = document.getElementById("loading");
     }
